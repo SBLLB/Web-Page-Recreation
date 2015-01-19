@@ -185,15 +185,24 @@ aside img#magazine-cover{
   width: 90%;
 }
 section#follow-text{
-  width: 60%;
+  width: 55%;
   float: left;
   padding-top: 2em;
   font-weight: bold;
   font-size: 1.2em;
 }
-section.social-media-icons{
-  width: 40%;
+section#social-media-icons{
+  width: 45%;
   float: right;
+}
+section#social-media-icons img{
+  height: 36px;
+}
+section#social-media-icons a{
+  width: 30%;
+  display: inline-block;
+  float: right;
+  padding-top: 2em;
 }
 
 /*================
