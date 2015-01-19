@@ -109,15 +109,15 @@ img#escapism-logo{
   margin: 2em auto 3em auto;
   text-align: center;
 }
-form label{
-  font-size: 1.3em;
-  width: 33%;
-  float: left;
-  margin: 10px 0 5px 0;
-}
 #sign-up form{
   width: 80%; 
   margin: 0 auto;
+}
+form label{
+  font-size: 1.3em;
+  /*width: 40%;*/
+  float: left;
+  margin: 10px 0 5px 0;
 }
 .form-field input {
   border: 1px solid #DDDDDD;
@@ -200,20 +200,43 @@ section.social-media-icons{
   BOTTOM SECTION
  ================*/
 section#bottom-section{
-  clear: both;
+  background: #EEEEEE;
+  overflow: auto;
+}
+section#line {
+  width: 95%;
+  height: 2px;
+  margin: 2em auto;
+  background: #D4D4D4;
+}
+section#ipad-info{
+  width: 90%;
+  margin: 0 auto;
+}
+article#ipad-blurb{
+  width: 85%;
+  float: right;
+}
+article#ipad-blurb h1{
+  padding: 0 0 1em 0;
+}
+section#ipad-image{
+  width: 15%;
+  float: left;
+}
+section#ipad-image img{
+ padding: 1em
 }
 
 /*================
     FOOTER
  ================*/
-
 footer {
   text-align: center;
   padding: 2em ;
   clear:both;
 }
-
-
-
-
-
+footer p {
+  font-size: 1em;
+  font-weight: bold;
+}
