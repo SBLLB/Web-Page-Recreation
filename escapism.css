@@ -100,9 +100,34 @@ img#escapism-logo{
   margin: 3em auto;
   display: block;
 }
-aside#sign-up p{
-  margin: 1em 3em;
+#sign-up p{
+  width: 75%;
+  margin: 2em auto;
   text-align: center;
+}
+form label{
+  font-size: 1.3em;
+  width: 33%;
+  float: left;
+  margin: 10px 0 5px 0;
+}
+#sign-up form{
+  width: 80%; 
+  margin: 0 auto;
+}
+.form-field input {
+  border: 1px solid #DDDDDD;
+  width: 60%;
+  float: right;
+  padding: 0.8em;
+  margin: 10px 0 0 0;
+}
+.terms-field {
+  clear: both;
+  padding: 1em 0 1em 0;
+}
+.terms-field input {
+  float: right;
 }
 
 /*================
