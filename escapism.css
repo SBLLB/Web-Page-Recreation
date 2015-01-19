@@ -72,3 +72,70 @@ img#square-up-logo {
   color: white;
   text-decoration: none; 
 }
+
+/*================
+    TOP SECTION
+ ================*/
+
+img#main-image{
+  width: 66%;
+  float: left;
+}
+aside{
+  width: 33%;
+  float: right;
+}
+img#escapism-logo{
+  width: 70%;
+  margin: 3em auto;
+  display: block;
+}
+aside#sign-up p{
+  text-align: center;
+}
+
+/*================
+    MID SECTION
+ ================*/
+
+section#middle-section{
+  clear: both;
+}
+article#main-text{
+  width: 66%;
+  float: left;
+}
+aside#mid-section-aside{
+  width: 33%;
+  float: right;
+}
+aside img#magazine-cover{
+  width: 90%;
+  margin: 0 auto;
+}
+section.social-media-icons{
+  width: 40%;
+  float: right;
+}
+
+/*================
+  BOTTOM SECTION
+ ================*/
+section#bottom-section{
+  clear: both;
+}
+
+/*================
+    FOOTER
+ ================*/
+
+footer {
+  text-align: center;
+  padding: 2em ;
+  clear:both;
+}
+
+
+
+
+
