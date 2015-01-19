@@ -110,19 +110,46 @@ aside#sign-up p{
  ================*/
 
 section#middle-section{
-  clear: both;
+   background: #EEEEEE;
+   overflow: auto;
 }
 article#main-text{
   width: 66%;
   float: left;
+ }
+article#main-text h1 {
+  width: 90%;
+  margin: 1.2em auto 1em auto;
+}
+article#main-text p {
+  width: 90%;
+  margin: 1.5em auto;
+}
+article#main-text a:link {
+  text-decoration: underline;
+  color: black;
+}
+article#main-text a:visited {
+  text-decoration: underline;
+  color: black;
 }
 aside#mid-section-aside{
   width: 33%;
   float: right;
-}
+ }
 aside img#magazine-cover{
   width: 90%;
   margin: 0 auto;
+}
+.social-media{
+  width: 90%;
+}
+section#follow-text{
+  width: 60%;
+  float: left;
+  padding-top: 2em;
+  font-weight: bold;
+  font-size: 1.2em;
 }
 section.social-media-icons{
   width: 40%;
