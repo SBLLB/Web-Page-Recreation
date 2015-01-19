@@ -77,8 +77,18 @@ img#square-up-logo {
     TOP SECTION
  ================*/
 
+section#top-section{
+  background: #EEEEEE;
+  border-top-left-radius: 25em;
+  -moz-border-radius-topleft: 25em
+  -webkit-border-top-left-radius: 25em;
+  overflow: hidden;
+}
 img#main-image{
   width: 66%;
+  border-bottom-right-radius: 25em;
+  -moz-border-radius-bottomright: 25em
+  -webkit-border-bottom-right-radius: 25em;
   float: left;
 }
 aside{
@@ -91,6 +101,7 @@ img#escapism-logo{
   display: block;
 }
 aside#sign-up p{
+  margin: 1em 3em;
   text-align: center;
 }
 
