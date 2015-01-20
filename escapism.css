@@ -113,6 +113,9 @@ img#escapism-logo{
   width: 80%; 
   margin: 0 auto;
 }
+form section{
+  clear: both;
+}
 form label{
   font-size: 1.3em;
   /*width: 40%;*/
