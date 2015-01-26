@@ -1,254 +1,258 @@
 /* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
-/* ==============
-     GLOBAL
-===============*/
 
 html {
-	background: #D3D3D3;
-}
-body {
-	background: white;
-	width: 85%;
-	margin: 2em auto;
-  font-family: 'Oswald', sans-serif;
-  line-height: 170%
-}
-footer {
-  background: #D3D3D3;
-}
-a:active {
-  color: black;
-  text-decoration: underline; 
-}
-a:link {
-  color: black;
-  text-decoration: underline; 
-}
-a:visited {
-  color: black;
-  text-decoration: underline; 
-}
-a:hover {
-  color: black;
-  text-decoration: underline; 
-}
-h1{
-  font-size: 1.6em;
-}
-p {
-  font-size: 1.3em;
-}
+    background: #D3D3D3;
+  }
+  body {
+    background: white;
+    width: 85%;
+    margin: 2em auto;
+    font-family: 'Oswald', sans-serif;
+    line-height: 170%
+  }
+  footer {
+    background: #D3D3D3;
+  }
+  a:active {
+    color: black;
+    text-decoration: underline; 
+  }
+  a:link {
+    color: black;
+    text-decoration: underline; 
+  }
+  a:visited {
+    color: black;
+    text-decoration: underline; 
+  }
+  a:hover {
+    color: black;
+    text-decoration: underline; 
+  }
+  h1{
+    font-size: 1.6em;
+  }
+  p {
+    font-size: 1.3em;
+  }
 
-/* ==============
-     HEADER
-===============*/
+  /* ==============
+       HEADER
+  ===============*/
 
-img#square-up-logo {
-  display: block; 
-	width: 25%;
-	margin: 0 auto;
-}
+  img#square-up-logo {
+    display: block; 
+    width: 25%;
+    margin: 0 auto;
+  }
+  /*================
+      NAV BAR 
+  ================*/
 
-/*================
-    NAV BAR 
-================*/
+  #navigation-bar {
+    background: black;
+  }
+  #navigation-bar ul {
+    text-align: center; 
+    padding: 1em 0;
+  }
+  #navigation-bar ul li {
+    display: inline;
+    margin: 0 1.8em; 
+    color: white;
+    font-size: 1.1em;
+  }
+  #navigation-bar a:link {
+    color: white;
+    text-decoration: none; 
+  }
+  #navigation-bar a:visited {
+    color: white;
+    text-decoration: none; 
+  }
 
-#navigation-bar {
-  background: black;
-}
-#navigation-bar ul {
-  text-align: center; 
-  padding: 1em 0;
-}
-#navigation-bar ul li {
-  display: inline;
-  margin: 0 1.8em; 
-  color: white;
-  font-size: 1.1em;
-}
-#navigation-bar a:link {
-  color: white;
-  text-decoration: none; 
-}
-#navigation-bar a:visited {
-  color: white;
-  text-decoration: none; 
-}
+  /*================
+      TOP SECTION
+   ================*/
 
-/*================
-    TOP SECTION
- ================*/
+  section#top-section{
+    background: #EEEEEE;
+    border-top-left-radius: 25em;
+    -moz-border-radius-topleft: 25em
+    -webkit-border-top-left-radius: 25em;
+    overflow: hidden;
+  }
+  img#main-image{
+    width: 66%;
+    border-bottom-right-radius: 25em;
+    -moz-border-radius-bottomright: 25em
+    -webkit-border-bottom-right-radius: 25em;
+    float: left;
+  }
+  aside{
+    width: 33%;
+    float: right;
+  }
+  img#escapism-logo{
+    width: 70%;
+    margin: 3em auto;
+    display: block;
+  }
+  #sign-up p{
+    width: 75%;
+    margin: 2em auto 3em auto;
+    text-align: center;
+    font-size: 1.3em;
+  }
+  #sign-up form{
+    width: 80%; 
+    margin: 0 auto;
+  }
+  form section{
+    clear: both;
+  }
+  form label{
+    font-size: 1.3em;
+    /*width: 40%;*/
+    float: left;
+    margin: 10px 0 5px 0;
+  }
+  .form-field input {
+    border: 1px solid #DDDDDD;
+    width: 60%;
+    float: right;
+    padding: 0.8em;
+    margin: 10px 0 0 0;
+  }
+  .terms-field {
+    clear: both;
+    padding: 1em 0 1em 0;
+  }
+  .terms-field input {
+    float: right;
+  }
+  #submit{
+    border: none;
+    background: black;
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0.4em 0;
+    width: 100%;
+  }
+ 
+  /*================
+      MID SECTION
+   ================*/
 
-section#top-section{
-  background: #EEEEEE;
-  border-top-left-radius: 25em;
-  -moz-border-radius-topleft: 25em
-  -webkit-border-top-left-radius: 25em;
-  overflow: hidden;
-}
-img#main-image{
-  width: 66%;
-  border-bottom-right-radius: 25em;
-  -moz-border-radius-bottomright: 25em
-  -webkit-border-bottom-right-radius: 25em;
-  float: left;
-}
-aside{
-  width: 33%;
-  float: right;
-}
-img#escapism-logo{
-  width: 70%;
-  margin: 3em auto;
-  display: block;
-}
-#sign-up p{
-  width: 75%;
-  margin: 2em auto 3em auto;
-  text-align: center;
-}
-#sign-up form{
-  width: 80%; 
-  margin: 0 auto;
-}
-form section{
-  clear: both;
-}
-form label{
-  font-size: 1.3em;
-  /*width: 40%;*/
-  float: left;
-  margin: 10px 0 5px 0;
-}
-.form-field input {
-  border: 1px solid #DDDDDD;
-  width: 60%;
-  float: right;
-  padding: 0.8em;
-  margin: 10px 0 0 0;
-}
-.terms-field {
-  clear: both;
-  padding: 1em 0 1em 0;
-}
-.terms-field input {
-  float: right;
-}
+  section#middle-section{
+     background: #EEEEEE;
+     overflow: auto;
+  }
+  article#main-text{
+    width: 66%;
+    float: left;
+  }
+  article#main-text h1 {
+    width: 90%;
+    margin: 1.2em auto 1em auto;
+  }
+  article#main-text p {
+    width: 90%;
+    margin: 1.5em auto;
+  }
+  article#main-text a:link {
+    text-decoration: underline;
+    color: black;
+  }
+  article#main-text a:visited {
+    text-decoration: underline;
+    color: black;
+  }
+  aside#mid-section-aside{
+    width: 33%;
+    float: right;
+   }
+  aside img#magazine-cover{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .social-media{
+    width: 90%;
+  }
+  section#follow-text{
+    width: 55%;
+    float: left;
+    padding-top: 2em;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  section#social-media-icons{
+    width: 45%;
+    float: right;
+  }
+  section#social-media-icons img{
+    height: 36px;
+  }
+  section#social-media-icons a{
+    width: 30%;
+    display: inline-block;
+    float: right;
+    padding-top: 2em;
+  }
 
-#submit{
-  border: none;
-  background: black;
-  color: white;
-  font-size: 1.3em;
-  letter-spacing: 2px;
-  font-family: 'Oswald', sans-serif;
-  margin: 0.4em 0;
-  width: 100%;
-}
+  /*================
+    BOTTOM SECTION
+   ================*/
+  section#bottom-section{
+    background: #EEEEEE;
+    overflow: auto;
+  }
+  section#line {
+    width: 95%;
+    height: 2px;
+    margin: 2em auto;
+    background: #D4D4D4;
+  }
+  section#ipad-info{
+    width: 90%;
+    margin: 0 auto;
+  }
+  article#ipad-blurb{
+    width: 85%;
+    float: right;
+  }
+  article#ipad-blurb h1{
+    padding: 0 0 1em 0;
+  }
+  section#ipad-image{
+    width: 15%;
+    float: left;
+  }
+  section#ipad-image img{
+   padding: 1em
+  }
 
-/*================
-    MID SECTION
- ================*/
+  /*================
+      FOOTER
+   ================*/
+  footer {
+    text-align: center;
+    padding: 2em ;
+    clear:both;
+  }
+  footer p {
+    font-size: 1em;
+    font-weight: bold;
+  }
 
-section#middle-section{
-   background: #EEEEEE;
-   overflow: auto;
-}
-article#main-text{
-  width: 66%;
-  float: left;
- }
-article#main-text h1 {
-  width: 90%;
-  margin: 1.2em auto 1em auto;
-}
-article#main-text p {
-  width: 90%;
-  margin: 1.5em auto;
-}
-article#main-text a:link {
-  text-decoration: underline;
-  color: black;
-}
-article#main-text a:visited {
-  text-decoration: underline;
-  color: black;
-}
-aside#mid-section-aside{
-  width: 33%;
-  float: right;
- }
-aside img#magazine-cover{
-  width: 90%;
-  margin: 0 auto;
-}
-.social-media{
-  width: 90%;
-}
-section#follow-text{
-  width: 55%;
-  float: left;
-  padding-top: 2em;
-  font-weight: bold;
-  font-size: 1.2em;
-}
-section#social-media-icons{
-  width: 45%;
-  float: right;
-}
-section#social-media-icons img{
-  height: 36px;
-}
-section#social-media-icons a{
-  width: 30%;
-  display: inline-block;
-  float: right;
-  padding-top: 2em;
-}
 
-/*================
-  BOTTOM SECTION
- ================*/
-section#bottom-section{
-  background: #EEEEEE;
-  overflow: auto;
-}
-section#line {
-  width: 95%;
-  height: 2px;
-  margin: 2em auto;
-  background: #D4D4D4;
-}
-section#ipad-info{
-  width: 90%;
-  margin: 0 auto;
-}
-article#ipad-blurb{
-  width: 85%;
-  float: right;
-}
-article#ipad-blurb h1{
-  padding: 0 0 1em 0;
-}
-section#ipad-image{
-  width: 15%;
-  float: left;
-}
-section#ipad-image img{
- padding: 1em
-}
-
-/*================
-    FOOTER
- ================*/
-footer {
-  text-align: center;
-  padding: 2em ;
-  clear:both;
-}
-footer p {
-  font-size: 1em;
-  font-weight: bold;
+@media only screen and (max-width: 1200px){
+  section#top-section {
+    background: salmon;
+  }
+  
 }
